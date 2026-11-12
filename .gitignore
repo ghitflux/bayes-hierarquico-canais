@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# Ambiente (uv usa .venv; o uv.lock é versionado de propósito)
+.venv/
+
+# Dados brutos (este estudo não tem: os extratos de data/ são pequenos e versionados)
+data/brutos/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testes
+.pytest_cache/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Segredos
+.env
+.env.*

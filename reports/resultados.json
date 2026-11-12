@@ -1,0 +1,2064 @@
+{
+  "amostra": {
+    "posts": 64,
+    "cortes": 35,
+    "canais": 6,
+    "posts_maduros": 42,
+    "posts_jovens": 22,
+    "posts_com_zero_views": 2,
+    "coletas": 2,
+    "coleta_usada": "2026-11-10",
+    "primeiro_post": "2026-11-07T18:00:00",
+    "ultimo_post": "2026-11-10T09:00:00",
+    "posts_por_canal_minimo": 8,
+    "posts_por_canal_maximo": 12
+  },
+  "tratamento_dos_posts_jovens": {
+    "horas_de_maturidade": 24.0,
+    "horas_para_ter_teto": 12.0,
+    "fator_maximo": 5.0,
+    "posts_jovens_com_teto": 18,
+    "posts_jovens_sem_teto": 4,
+    "horas_entre_coletas": 13.099999999999998,
+    "crescimento_entre_coletas": {
+      "menos de 12 h": {
+        "posts": 16,
+        "fator_mediano": 1.7649253731,
+        "fator_p90": 8.0778823178,
+        "fator_maximo": 1191.0,
+        "cresceram_mais_de_10_por_cento": 0.6875
+      },
+      "12 a 24 h": {
+        "posts": 4,
+        "fator_mediano": 1.0017331023,
+        "fator_p90": 1.6507404602,
+        "fator_maximo": 1.9281437126,
+        "cresceram_mais_de_10_por_cento": 0.25
+      },
+      "24 h ou mais": {
+        "posts": 38,
+        "fator_mediano": 1.0,
+        "fator_p90": 1.0552712736,
+        "fator_maximo": 3.0576923077,
+        "cresceram_mais_de_10_por_cento": 0.0526315789
+      }
+    }
+  },
+  "media_crua_por_canal": {
+    "TikTok · Games": {
+      "posts": 12,
+      "posts_jovens": 6,
+      "media_de_views": 447.3333333333,
+      "mediana_de_views": 539.5,
+      "maior_post": 859,
+      "desvio_do_log": 0.7822202853,
+      "parcela_do_maior_post": 0.1600223547,
+      "posicao_pela_media_crua": 3
+    },
+    "TikTok · Negócios": {
+      "posts": 12,
+      "posts_jovens": 4,
+      "media_de_views": 490.5833333333,
+      "mediana_de_views": 526.5,
+      "maior_post": 1139,
+      "desvio_do_log": 1.4679188832,
+      "parcela_do_maior_post": 0.193477153,
+      "posicao_pela_media_crua": 2
+    },
+    "TikTok · Ciência": {
+      "posts": 10,
+      "posts_jovens": 2,
+      "media_de_views": 422.2,
+      "mediana_de_views": 488.0,
+      "maior_post": 578,
+      "desvio_do_log": 0.3548773782,
+      "parcela_do_maior_post": 0.1369019422,
+      "posicao_pela_media_crua": 4
+    },
+    "YouTube · Games": {
+      "posts": 11,
+      "posts_jovens": 5,
+      "media_de_views": 505.2727272727,
+      "mediana_de_views": 158.0,
+      "maior_post": 1662,
+      "desvio_do_log": 3.0108738238,
+      "parcela_do_maior_post": 0.2990284275,
+      "posicao_pela_media_crua": 1
+    },
+    "YouTube · Negócios": {
+      "posts": 11,
+      "posts_jovens": 4,
+      "media_de_views": 156.9090909091,
+      "mediana_de_views": 4.0,
+      "maior_post": 1196,
+      "desvio_do_log": 2.2087783809,
+      "parcela_do_maior_post": 0.6929316338,
+      "posicao_pela_media_crua": 5
+    },
+    "YouTube · Ciência": {
+      "posts": 8,
+      "posts_jovens": 1,
+      "media_de_views": 42.875,
+      "mediana_de_views": 3.5,
+      "maior_post": 311,
+      "desvio_do_log": 1.7141871944,
+      "parcela_do_maior_post": 0.9067055394,
+      "posicao_pela_media_crua": 6
+    }
+  },
+  "mediana_de_views_por_canal_e_dia": {
+    "TikTok · Games": {
+      "2026-11-07": 433.5,
+      "2026-11-08": 360.0,
+      "2026-11-09": 616.0,
+      "2026-11-10": 60.0
+    },
+    "TikTok · Negócios": {
+      "2026-11-07": 406.5,
+      "2026-11-08": 514.0,
+      "2026-11-09": 597.0,
+      "2026-11-10": 33.0
+    },
+    "TikTok · Ciência": {
+      "2026-11-07": 350.0,
+      "2026-11-08": 503.0,
+      "2026-11-09": 483.0,
+      "2026-11-10": null
+    },
+    "YouTube · Games": {
+      "2026-11-07": 132.5,
+      "2026-11-08": 25.5,
+      "2026-11-09": 1181.0,
+      "2026-11-10": 0.0
+    },
+    "YouTube · Negócios": {
+      "2026-11-07": 19.0,
+      "2026-11-08": 167.5,
+      "2026-11-09": 3.0,
+      "2026-11-10": 1.0
+    },
+    "YouTube · Ciência": {
+      "2026-11-07": 1.5,
+      "2026-11-08": 10.0,
+      "2026-11-09": 4.0,
+      "2026-11-10": null
+    }
+  },
+  "orcamento_das_cadeias": {
+    "principal": {
+      "cadeias": 4,
+      "iteracoes": 4000,
+      "aquecimento": 1000
+    },
+    "validacao": {
+      "cadeias": 8,
+      "iteracoes": 500,
+      "aquecimento": 250
+    }
+  },
+  "estimativas_por_canal": [
+    {
+      "canal": "TikTok · Games",
+      "forma": "sem_agrupamento",
+      "theta": 6.3173722067,
+      "theta_desvio": 0.2725923523,
+      "tipico": 548.2522910364,
+      "tipico_inferior": 330.4780597891,
+      "tipico_superior": 973.3177799434
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "forma": "sem_agrupamento",
+      "theta": 6.1373863141,
+      "theta_desvio": 0.3547787512,
+      "tipico": 459.9283506751,
+      "tipico_inferior": 229.4415788489,
+      "tipico_superior": 943.7510188345
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "forma": "sem_agrupamento",
+      "theta": 6.0865148452,
+      "theta_desvio": 0.1488080799,
+      "tipico": 437.4826421587,
+      "tipico_inferior": 330.8882037499,
+      "tipico_superior": 598.1480280379
+    },
+    {
+      "canal": "YouTube · Games",
+      "forma": "sem_agrupamento",
+      "theta": 4.8866267542,
+      "theta_desvio": 1.0378387827,
+      "tipico": 129.6034849535,
+      "tipico_inferior": 16.5366503073,
+      "tipico_superior": 1078.2645829552
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "forma": "sem_agrupamento",
+      "theta": 3.2921268202,
+      "theta_desvio": 0.7073244597,
+      "tipico": 25.5435524231,
+      "tipico_inferior": 5.6529048251,
+      "tipico_superior": 111.86961943
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "forma": "sem_agrupamento",
+      "theta": 2.0475669107,
+      "theta_desvio": 0.6730142699,
+      "tipico": 6.7074480005,
+      "tipico_inferior": 1.0485820648,
+      "tipico_superior": 29.3320907033
+    },
+    {
+      "canal": "TikTok · Games",
+      "forma": "agrupamento_total",
+      "theta": 4.9867345645,
+      "theta_desvio": 0.3025574047,
+      "tipico": 145.6386728271,
+      "tipico_inferior": 80.6508469528,
+      "tipico_superior": 266.1486474807
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "forma": "agrupamento_total",
+      "theta": 4.9867345645,
+      "theta_desvio": 0.3025574047,
+      "tipico": 145.6386728271,
+      "tipico_inferior": 80.6508469528,
+      "tipico_superior": 266.1486474807
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "forma": "agrupamento_total",
+      "theta": 4.9867345645,
+      "theta_desvio": 0.3025574047,
+      "tipico": 145.6386728271,
+      "tipico_inferior": 80.6508469528,
+      "tipico_superior": 266.1486474807
+    },
+    {
+      "canal": "YouTube · Games",
+      "forma": "agrupamento_total",
+      "theta": 4.9867345645,
+      "theta_desvio": 0.3025574047,
+      "tipico": 145.6386728271,
+      "tipico_inferior": 80.6508469528,
+      "tipico_superior": 266.1486474807
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "forma": "agrupamento_total",
+      "theta": 4.9867345645,
+      "theta_desvio": 0.3025574047,
+      "tipico": 145.6386728271,
+      "tipico_inferior": 80.6508469528,
+      "tipico_superior": 266.1486474807
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "forma": "agrupamento_total",
+      "theta": 4.9867345645,
+      "theta_desvio": 0.3025574047,
+      "tipico": 145.6386728271,
+      "tipico_inferior": 80.6508469528,
+      "tipico_superior": 266.1486474807
+    },
+    {
+      "canal": "TikTok · Games",
+      "forma": "hierarquico",
+      "theta": 6.2531475947,
+      "theta_desvio": 0.2189035726,
+      "tipico": 514.0201254265,
+      "tipico_inferior": 345.4902120058,
+      "tipico_superior": 826.9053667327
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "forma": "hierarquico",
+      "theta": 6.1585369061,
+      "theta_desvio": 0.2074762998,
+      "tipico": 472.9987565374,
+      "tipico_inferior": 307.6287087866,
+      "tipico_superior": 713.2164365342
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "forma": "hierarquico",
+      "theta": 6.1596984723,
+      "theta_desvio": 0.218813612,
+      "tipico": 473.6099230528,
+      "tipico_inferior": 303.2714331753,
+      "tipico_superior": 728.7273864396
+    },
+    {
+      "canal": "YouTube · Games",
+      "forma": "hierarquico",
+      "theta": 3.7664289808,
+      "theta_desvio": 0.6397273955,
+      "tipico": 40.5733253099,
+      "tipico_inferior": 12.6828337959,
+      "tipico_superior": 171.89276696
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "forma": "hierarquico",
+      "theta": 3.4535410925,
+      "theta_desvio": 0.5639273033,
+      "tipico": 30.5025357218,
+      "tipico_inferior": 9.246649994,
+      "tipico_superior": 95.5052914791
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "forma": "hierarquico",
+      "theta": 3.2247879345,
+      "theta_desvio": 0.6657829748,
+      "tipico": 25.1795388831,
+      "tipico_inferior": 4.9830358059,
+      "tipico_superior": 83.5489630773
+    },
+    {
+      "canal": "TikTok · Games",
+      "forma": "por_plataforma",
+      "theta": 6.1910750176,
+      "theta_desvio": 0.1466760398,
+      "tipico": 486.505644778,
+      "tipico_inferior": 365.8867411913,
+      "tipico_superior": 654.9086429429
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "forma": "por_plataforma",
+      "theta": 6.1910750176,
+      "theta_desvio": 0.1466760398,
+      "tipico": 486.505644778,
+      "tipico_inferior": 365.8867411913,
+      "tipico_superior": 654.9086429429
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "forma": "por_plataforma",
+      "theta": 6.1910750176,
+      "theta_desvio": 0.1466760398,
+      "tipico": 486.505644778,
+      "tipico_inferior": 365.8867411913,
+      "tipico_superior": 654.9086429429
+    },
+    {
+      "canal": "YouTube · Games",
+      "forma": "por_plataforma",
+      "theta": 3.5140625682,
+      "theta_desvio": 0.4985472501,
+      "tipico": 32.5887223165,
+      "tipico_inferior": 11.6489591756,
+      "tipico_superior": 88.4197776825
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "forma": "por_plataforma",
+      "theta": 3.5140625682,
+      "theta_desvio": 0.4985472501,
+      "tipico": 32.5887223165,
+      "tipico_inferior": 11.6489591756,
+      "tipico_superior": 88.4197776825
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "forma": "por_plataforma",
+      "theta": 3.5140625682,
+      "theta_desvio": 0.4985472501,
+      "tipico": 32.5887223165,
+      "tipico_inferior": 11.6489591756,
+      "tipico_superior": 88.4197776825
+    },
+    {
+      "canal": "TikTok · Games",
+      "forma": "hierarquico_sem_plataforma",
+      "theta": 6.2685303739,
+      "theta_desvio": 0.2578280796,
+      "tipico": 526.31911778,
+      "tipico_inferior": 317.8354276699,
+      "tipico_superior": 878.2399426578
+    },
+    {
+      "canal": "TikTok · Negócios",
+      "forma": "hierarquico_sem_plataforma",
+      "theta": 6.0877832136,
+      "theta_desvio": 0.2508527785,
+      "tipico": 439.1077044014,
+      "tipico_inferior": 266.2899141812,
+      "tipico_superior": 719.9153501933
+    },
+    {
+      "canal": "TikTok · Ciência",
+      "forma": "hierarquico_sem_plataforma",
+      "theta": 6.0776030888,
+      "theta_desvio": 0.2664458635,
+      "tipico": 435.6892865651,
+      "tipico_inferior": 256.8786427986,
+      "tipico_superior": 735.6427354809
+    },
+    {
+      "canal": "YouTube · Games",
+      "forma": "hierarquico_sem_plataforma",
+      "theta": 4.9387042318,
+      "theta_desvio": 0.7039594997,
+      "tipico": 138.4228329928,
+      "tipico_inferior": 33.7216425739,
+      "tipico_superior": 547.6660443121
+    },
+    {
+      "canal": "YouTube · Negócios",
+      "forma": "hierarquico_sem_plataforma",
+      "theta": 3.8340939306,
+      "theta_desvio": 0.7879437801,
+      "tipico": 44.8440300325,
+      "tipico_inferior": 9.1537738244,
+      "tipico_superior": 234.7691527645
+    },
+    {
+      "canal": "YouTube · Ciência",
+      "forma": "hierarquico_sem_plataforma",
+      "theta": 3.0580416152,
+      "theta_desvio": 0.9607683412,
+      "tipico": 19.4340536478,
+      "tipico_inferior": 2.5470079586,
+      "tipico_superior": 158.4371849257
+    }
+  ],
+  "encolhimento": {
+    "TikTok · Games": {
+      "theta_sem_agrupamento": 6.3173722067,
+      "theta_hierarquico": 6.2531475947,
+      "media_da_plataforma": 6.1893119943,
+      "encolhimento": null,
+      "largura_do_intervalo_sem_agrupamento": 1.0781758904,
+      "largura_do_intervalo_hierarquico": 0.8710442864
+    },
+    "TikTok · Negócios": {
+      "theta_sem_agrupamento": 6.1373863141,
+      "theta_hierarquico": 6.1585369061,
+      "media_da_plataforma": 6.1893119943,
+      "encolhimento": null,
+      "largura_do_intervalo_sem_agrupamento": 1.4109240444,
+      "largura_do_intervalo_hierarquico": 0.8390470841
+    },
+    "TikTok · Ciência": {
+      "theta_sem_agrupamento": 6.0865148452,
+      "theta_hierarquico": 6.1596984723,
+      "media_da_plataforma": 6.1893119943,
+      "encolhimento": null,
+      "largura_do_intervalo_sem_agrupamento": 0.5907105163,
+      "largura_do_intervalo_hierarquico": 0.8747508458
+    },
+    "YouTube · Games": {
+      "theta_sem_agrupamento": 4.8866267542,
+      "theta_hierarquico": 3.7664289808,
+      "media_da_plataforma": 3.4826074677,
+      "encolhimento": 0.7978507021,
+      "largura_do_intervalo_sem_agrupamento": 4.1197421523,
+      "largura_do_intervalo_hierarquico": 2.5365295186
+    },
+    "YouTube · Negócios": {
+      "theta_sem_agrupamento": 3.2921268202,
+      "theta_hierarquico": 3.4535410925,
+      "media_da_plataforma": 3.4826074677,
+      "encolhimento": 0.8474051006,
+      "largura_do_intervalo_sem_agrupamento": 2.8311797671,
+      "largura_do_intervalo_hierarquico": 2.2426470185
+    },
+    "YouTube · Ciência": {
+      "theta_sem_agrupamento": 2.0475669107,
+      "theta_hierarquico": 3.2247879345,
+      "media_da_plataforma": 3.4826074677,
+      "encolhimento": 0.8203398977,
+      "largura_do_intervalo_sem_agrupamento": 2.6950583731,
+      "largura_do_intervalo_hierarquico": 2.6484027123
+    }
+  },
+  "diagnosticos": {
+    "hierarquico": {
+      "theta · TikTok · Games": {
+        "media": 6.2531475947,
+        "mediana": 6.2442059784,
+        "inferior": 5.8478545701,
+        "superior": 6.7188988565,
+        "rhat": 0.999947841,
+        "amostra_efetiva": 9783.3593371555
+      },
+      "theta · TikTok · Negócios": {
+        "media": 6.1585369061,
+        "mediana": 6.1612046984,
+        "inferior": 5.7321389647,
+        "superior": 6.5711860488,
+        "rhat": 1.0000963302,
+        "amostra_efetiva": 11800.5102262489
+      },
+      "theta · TikTok · Ciência": {
+        "media": 6.1596984723,
+        "mediana": 6.162493252,
+        "inferior": 5.7179201753,
+        "superior": 6.5926710212,
+        "rhat": 0.9999276935,
+        "amostra_efetiva": 13301.9841752361
+      },
+      "theta · YouTube · Games": {
+        "media": 3.7664289808,
+        "mediana": 3.7274587431,
+        "inferior": 2.6161420396,
+        "superior": 5.1526715582,
+        "rhat": 1.0004155596,
+        "amostra_efetiva": 5904.5463638435
+      },
+      "theta · YouTube · Negócios": {
+        "media": 3.4535410925,
+        "mediana": 3.4500680417,
+        "inferior": 2.3269508223,
+        "superior": 4.5695978408,
+        "rhat": 1.000270935,
+        "amostra_efetiva": 14586.4539595883
+      },
+      "theta · YouTube · Ciência": {
+        "media": 3.2247879345,
+        "mediana": 3.264978147,
+        "inferior": 1.788928099,
+        "superior": 4.4373308113,
+        "rhat": 1.0010049542,
+        "amostra_efetiva": 5702.0505113816
+      },
+      "mu · bloco 0": {
+        "media": 6.1893119943,
+        "mediana": 6.1863664783,
+        "inferior": 5.4742380673,
+        "superior": 6.9039095514,
+        "rhat": 0.9998053736,
+        "amostra_efetiva": 15003.2449182506
+      },
+      "mu · bloco 1": {
+        "media": 3.4826074677,
+        "mediana": 3.481485166,
+        "inferior": 2.3577723015,
+        "superior": 4.6335687692,
+        "rhat": 1.0000396146,
+        "amostra_efetiva": 14918.314750994
+      },
+      "sigma · grupo de dispersão 0": {
+        "media": 0.8069029721,
+        "mediana": 0.7930420387,
+        "inferior": 0.6123552315,
+        "superior": 1.0754716519,
+        "rhat": 1.0000336153,
+        "amostra_efetiva": 8067.0647417836
+      },
+      "sigma · grupo de dispersão 1": {
+        "media": 2.5733757568,
+        "mediana": 2.5354158166,
+        "inferior": 1.960486722,
+        "superior": 3.3977079045,
+        "rhat": 0.9999226031,
+        "amostra_efetiva": 10955.7110921037
+      },
+      "tau": {
+        "media": 0.3893459796,
+        "mediana": 0.2822496268,
+        "inferior": 0.0094907789,
+        "superior": 1.3432069114,
+        "rhat": 1.0030418296,
+        "amostra_efetiva": 1724.582514185
+      }
+    },
+    "aceitacao_do_metropolis": 0.427125,
+    "amostras_a_posteriori": 16000,
+    "pior_por_ajuste": {
+      "sem_agrupamento": {
+        "maior_rhat": 1.0004455800653613,
+        "menor_amostra_efetiva": 7497.792490109387
+      },
+      "agrupamento_total": {
+        "maior_rhat": 1.0002674563298604,
+        "menor_amostra_efetiva": 13036.946860507702
+      },
+      "hierarquico": {
+        "maior_rhat": 1.0030418295842556,
+        "menor_amostra_efetiva": 1724.582514184988
+      },
+      "por_plataforma": {
+        "maior_rhat": 1.000255219347547,
+        "menor_amostra_efetiva": 8536.44422936748
+      },
+      "hierarquico_sem_plataforma": {
+        "maior_rhat": 1.0009368539564596,
+        "menor_amostra_efetiva": 2573.719123482626
+      },
+      "priori semi_cauchy": {
+        "maior_rhat": 1.0012778089475254,
+        "menor_amostra_efetiva": 1738.966888495698
+      },
+      "priori uniforme": {
+        "maior_rhat": 1.0041871865340866,
+        "menor_amostra_efetiva": 1218.7193482428622
+      },
+      "tratamento: Só posts com 24 h ou mais": {
+        "maior_rhat": 1.0015382745737165,
+        "menor_amostra_efetiva": 1552.5566547606347
+      },
+      "tratamento: Todo jovem como piso, sem teto": {
+        "maior_rhat": 1.003649454856664,
+        "menor_amostra_efetiva": 1712.1063453000313
+      }
+    }
+  },
+  "sensibilidade_as_prioris": {
+    "semi_normal": {
+      "priori": "semi-normal(1)",
+      "tau_priori_mediana": 0.673901187,
+      "tau_priori_superior": 2.2357101653,
+      "tau_mediana": 0.2822496268,
+      "tau_inferior": 0.0094907789,
+      "tau_superior": 1.3432069114,
+      "p_tau_menor_que_0,1": 0.2128125,
+      "p_tau_maior_que_0,5": 0.2931875,
+      "rhat_de_tau": 1.0030418296,
+      "amostra_efetiva_de_tau": 1724.582514185,
+      "aceitacao_do_metropolis": 0.427125,
+      "lider": "TikTok · Games",
+      "p_melhor_e_do_tiktok": 0.9993125,
+      "p_melhor · TikTok · Games": 0.471125,
+      "p_melhor · TikTok · Negócios": 0.2601875,
+      "p_melhor · TikTok · Ciência": 0.268,
+      "p_melhor · YouTube · Games": 0.0006875,
+      "p_melhor · YouTube · Negócios": 0.0,
+      "p_melhor · YouTube · Ciência": 0.0,
+      "tipico · TikTok · Games": 514.0201254265,
+      "tipico · TikTok · Negócios": 472.9987565374,
+      "tipico · TikTok · Ciência": 473.6099230528,
+      "tipico · YouTube · Games": 40.5733253099,
+      "tipico · YouTube · Negócios": 30.5025357218,
+      "tipico · YouTube · Ciência": 25.1795388831
+    },
+    "semi_cauchy": {
+      "priori": "semi-Cauchy(1)",
+      "tau_priori_mediana": 0.9976975064,
+      "tau_priori_superior": 25.332114576,
+      "tau_mediana": 0.2462923767,
+      "tau_inferior": 0.0112829588,
+      "tau_superior": 1.4063528601,
+      "p_tau_menor_que_0,1": 0.2334375,
+      "p_tau_maior_que_0,5": 0.2591875,
+      "rhat_de_tau": 1.0012778089,
+      "amostra_efetiva_de_tau": 1738.9668884957,
+      "aceitacao_do_metropolis": 0.3910625,
+      "lider": "TikTok · Games",
+      "p_melhor_e_do_tiktok": 0.9996875,
+      "p_melhor · TikTok · Games": 0.46925,
+      "p_melhor · TikTok · Negócios": 0.2665625,
+      "p_melhor · TikTok · Ciência": 0.263875,
+      "p_melhor · YouTube · Games": 0.0003125,
+      "p_melhor · YouTube · Negócios": 0.0,
+      "p_melhor · YouTube · Ciência": 0.0,
+      "tipico · TikTok · Games": 510.4542228942,
+      "tipico · TikTok · Negócios": 473.1749708217,
+      "tipico · TikTok · Ciência": 474.2357608014,
+      "tipico · YouTube · Games": 39.9804575646,
+      "tipico · YouTube · Negócios": 30.9840071679,
+      "tipico · YouTube · Ciência": 26.160437316
+    },
+    "uniforme": {
+      "priori": "uniforme(0, 5)",
+      "tau_priori_mediana": 2.5018286813,
+      "tau_priori_superior": 4.8762698261,
+      "tau_mediana": 0.3563690391,
+      "tau_inferior": 0.0149875548,
+      "tau_superior": 2.3546440039,
+      "p_tau_menor_que_0,1": 0.175375,
+      "p_tau_maior_que_0,5": 0.38425,
+      "rhat_de_tau": 1.0041871865,
+      "amostra_efetiva_de_tau": 1218.7193482429,
+      "aceitacao_do_metropolis": 0.3931875,
+      "lider": "TikTok · Games",
+      "p_melhor_e_do_tiktok": 0.998375,
+      "p_melhor · TikTok · Games": 0.4875625,
+      "p_melhor · TikTok · Negócios": 0.2548125,
+      "p_melhor · TikTok · Ciência": 0.256,
+      "p_melhor · YouTube · Games": 0.001625,
+      "p_melhor · YouTube · Negócios": 0.0,
+      "p_melhor · YouTube · Ciência": 0.0,
+      "tipico · TikTok · Games": 517.6024969704,
+      "tipico · TikTok · Negócios": 470.8951069109,
+      "tipico · TikTok · Ciência": 471.1220280133,
+      "tipico · YouTube · Games": 44.4099028478,
+      "tipico · YouTube · Negócios": 30.4145293256,
+      "tipico · YouTube · Ciência": 23.4345132771
+    }
+  },
+  "sensibilidade_aos_posts_jovens": {
+    "Jovem de 12 a 24 h entre o observado e 5x (principal)": {
+      "posts": 64,
+      "tau_mediana": 0.2822496268,
+      "sigma_tiktok": 0.7930420387,
+      "sigma_youtube": 2.5354158166,
+      "tiktok_sobre_youtube": 14.9895106117,
+      "lider": "TikTok · Games",
+      "p_melhor_e_do_tiktok": 0.9993125,
+      "p_melhor · TikTok · Games": 0.471125,
+      "p_melhor · TikTok · Negócios": 0.2601875,
+      "p_melhor · TikTok · Ciência": 0.268,
+      "p_melhor · YouTube · Games": 0.0006875,
+      "p_melhor · YouTube · Negócios": 0.0,
+      "p_melhor · YouTube · Ciência": 0.0,
+      "tipico · TikTok · Games": 514.0201254265,
+      "tipico · TikTok · Negócios": 472.9987565374,
+      "tipico · TikTok · Ciência": 473.6099230528,
+      "tipico · YouTube · Games": 40.5733253099,
+      "tipico · YouTube · Negócios": 30.5025357218,
+      "tipico · YouTube · Ciência": 25.1795388831
+    },
+    "Só posts com 24 h ou mais": {
+      "posts": 42,
+      "tau_mediana": 0.2311674239,
+      "sigma_tiktok": 0.4322875135,
+      "sigma_youtube": 2.1341047314,
+      "tiktok_sobre_youtube": 29.4702837832,
+      "lider": "TikTok · Negócios",
+      "p_melhor_e_do_tiktok": 1.0,
+      "p_melhor · TikTok · Games": 0.076,
+      "p_melhor · TikTok · Negócios": 0.709375,
+      "p_melhor · TikTok · Ciência": 0.214625,
+      "p_melhor · YouTube · Games": 0.0,
+      "p_melhor · YouTube · Negócios": 0.0,
+      "p_melhor · YouTube · Ciência": 0.0,
+      "tipico · TikTok · Games": 365.93755979,
+      "tipico · TikTok · Negócios": 465.6423407008,
+      "tipico · TikTok · Ciência": 412.0243196888,
+      "tipico · YouTube · Games": 13.3385455474,
+      "tipico · YouTube · Negócios": 13.9723880897,
+      "tipico · YouTube · Ciência": 11.7942702618
+    },
+    "Todo jovem como piso, sem teto": {
+      "posts": 64,
+      "tau_mediana": 0.2354470888,
+      "sigma_tiktok": 0.5623223563,
+      "sigma_youtube": 2.9511329615,
+      "tiktok_sobre_youtube": 10.046300855,
+      "lider": "TikTok · Negócios",
+      "p_melhor_e_do_tiktok": 0.9949375,
+      "p_melhor · TikTok · Games": 0.2930625,
+      "p_melhor · TikTok · Negócios": 0.553125,
+      "p_melhor · TikTok · Ciência": 0.14875,
+      "p_melhor · YouTube · Games": 0.003875,
+      "p_melhor · YouTube · Negócios": 0.000625,
+      "p_melhor · YouTube · Ciência": 0.0005625,
+      "tipico · TikTok · Games": 518.0577077358,
+      "tipico · TikTok · Negócios": 558.4244428003,
+      "tipico · TikTok · Ciência": 483.2124491782,
+      "tipico · YouTube · Games": 60.4933655867,
+      "tipico · YouTube · Negócios": 51.5347732117,
+      "tipico · YouTube · Ciência": 43.0792347599
+    }
+  },
+  "checagem_preditiva": {
+    "TikTok: desvio do log das views": {
+      "observado": 0.435819235,
+      "replicas_mediana": 0.7979226311,
+      "replicas_inferior": 0.5166847776,
+      "replicas_superior": 1.1996172456,
+      "p_preditivo": 0.997
+    },
+    "TikTok: menor post (views)": {
+      "observado": 134.0,
+      "replicas_mediana": 104.0,
+      "replicas_inferior": 29.975,
+      "replicas_superior": 235.0,
+      "p_preditivo": 0.29725
+    },
+    "TikTok: maior post (views)": {
+      "observado": 643.0,
+      "replicas_mediana": 2224.0,
+      "replicas_inferior": 983.975,
+      "replicas_superior": 7736.075,
+      "p_preditivo": 0.99925
+    },
+    "YouTube: desvio do log das views": {
+      "observado": 2.1512992623,
+      "replicas_mediana": 2.3431586715,
+      "replicas_inferior": 1.6052712491,
+      "replicas_superior": 3.3540161138,
+      "p_preditivo": 0.6765
+    },
+    "YouTube: parcela com até 5 views": {
+      "observado": 0.6,
+      "replicas_mediana": 0.25,
+      "replicas_inferior": 0.05,
+      "replicas_superior": 0.5,
+      "p_preditivo": 0.0085
+    },
+    "YouTube: maior post (views)": {
+      "observado": 1196.0,
+      "replicas_mediana": 3429.5,
+      "replicas_inferior": 292.975,
+      "replicas_superior": 162373.275,
+      "p_preditivo": 0.7725
+    }
+  },
+  "checagem_preditiva_so_maduros": {
+    "TikTok: desvio do log das views": {
+      "observado": 0.435819235,
+      "replicas_mediana": 0.4518977811,
+      "replicas_inferior": 0.2824346801,
+      "replicas_superior": 0.678742274,
+      "p_preditivo": 0.569
+    },
+    "TikTok: menor post (views)": {
+      "observado": 134.0,
+      "replicas_mediana": 176.0,
+      "replicas_inferior": 88.0,
+      "replicas_superior": 274.025,
+      "p_preditivo": 0.8135
+    },
+    "TikTok: maior post (views)": {
+      "observado": 643.0,
+      "replicas_mediana": 990.0,
+      "replicas_inferior": 624.975,
+      "replicas_superior": 1951.15,
+      "p_preditivo": 0.96425
+    },
+    "YouTube: desvio do log das views": {
+      "observado": 2.1512992623,
+      "replicas_mediana": 1.9175224334,
+      "replicas_inferior": 1.2751449104,
+      "replicas_superior": 2.8252392459,
+      "p_preditivo": 0.29425
+    },
+    "YouTube: parcela com até 5 views": {
+      "observado": 0.6,
+      "replicas_mediana": 0.35,
+      "replicas_inferior": 0.1,
+      "replicas_superior": 0.65,
+      "p_preditivo": 0.06275
+    },
+    "YouTube: maior post (views)": {
+      "observado": 1196.0,
+      "replicas_mediana": 735.5,
+      "replicas_inferior": 78.95,
+      "replicas_superior": 20902.2,
+      "p_preditivo": 0.3725
+    }
+  },
+  "validacao_cruzada": {
+    "agrupamento_total": {
+      "posts_previstos": 42.0,
+      "erro_absoluto_medio": 1.8908877623,
+      "erro_inferior": 1.5389474049,
+      "erro_superior": 2.2247205248,
+      "fator_de_erro": 6.625247716,
+      "diferenca_de_erro_para_o_hierarquico": 0.7002536374,
+      "diferenca_de_erro_inferior": 0.3987049028,
+      "diferenca_de_erro_superior": 0.9810135365,
+      "log_densidade_media": -2.2821835051,
+      "diferenca_de_log_densidade_para_o_hierarquico": -0.6910480641,
+      "diferenca_de_log_densidade_inferior": -0.845215435,
+      "diferenca_de_log_densidade_superior": -0.5292266662
+    },
+    "hierarquico": {
+      "posts_previstos": 42.0,
+      "erro_absoluto_medio": 1.1906341249,
+      "erro_inferior": 0.983817745,
+      "erro_superior": 1.4023036751,
+      "fator_de_erro": 3.2891662884,
+      "diferenca_de_erro_para_o_hierarquico": 0.0,
+      "diferenca_de_erro_inferior": 0.0,
+      "diferenca_de_erro_superior": 0.0,
+      "log_densidade_media": -1.591135441,
+      "diferenca_de_log_densidade_para_o_hierarquico": 0.0,
+      "diferenca_de_log_densidade_inferior": 0.0,
+      "diferenca_de_log_densidade_superior": 0.0
+    },
+    "hierarquico_sem_plataforma": {
+      "posts_previstos": 42.0,
+      "erro_absoluto_medio": 1.330675859,
+      "erro_inferior": 1.0480963271,
+      "erro_superior": 1.6252779043,
+      "fator_de_erro": 3.7835997037,
+      "diferenca_de_erro_para_o_hierarquico": 0.1400417341,
+      "diferenca_de_erro_inferior": -0.0146957129,
+      "diferenca_de_erro_superior": 0.2901069608,
+      "log_densidade_media": -1.674918775,
+      "diferenca_de_log_densidade_para_o_hierarquico": -0.083783334,
+      "diferenca_de_log_densidade_inferior": -0.1483067134,
+      "diferenca_de_log_densidade_superior": -0.0303562851
+    },
+    "media_crua": {
+      "posts_previstos": 42.0,
+      "erro_absoluto_medio": 1.1869967458,
+      "erro_inferior": 0.9072664643,
+      "erro_superior": 1.5135410988,
+      "fator_de_erro": 3.2772240762,
+      "diferenca_de_erro_para_o_hierarquico": -0.0036373791,
+      "diferenca_de_erro_inferior": -0.1931595527,
+      "diferenca_de_erro_superior": 0.1975050207,
+      "log_densidade_media": -1.8951051653,
+      "diferenca_de_log_densidade_para_o_hierarquico": -0.3039697243,
+      "diferenca_de_log_densidade_inferior": -0.9450746599,
+      "diferenca_de_log_densidade_superior": 0.1216668229
+    },
+    "por_plataforma": {
+      "posts_previstos": 42.0,
+      "erro_absoluto_medio": 1.187328278,
+      "erro_inferior": 0.9941596644,
+      "erro_superior": 1.3749197837,
+      "fator_de_erro": 3.2783107615,
+      "diferenca_de_erro_para_o_hierarquico": -0.0033058469,
+      "diferenca_de_erro_inferior": -0.0550596342,
+      "diferenca_de_erro_superior": 0.0421240402,
+      "log_densidade_media": -1.5593166348,
+      "diferenca_de_log_densidade_para_o_hierarquico": 0.0318188062,
+      "diferenca_de_log_densidade_inferior": 0.0087613623,
+      "diferenca_de_log_densidade_superior": 0.0596106466
+    },
+    "sem_agrupamento": {
+      "posts_previstos": 42.0,
+      "erro_absoluto_medio": 1.188990958,
+      "erro_inferior": 0.8989168902,
+      "erro_superior": 1.5193463334,
+      "fator_de_erro": 3.2837660773,
+      "diferenca_de_erro_para_o_hierarquico": -0.0016431669,
+      "diferenca_de_erro_inferior": -0.1967790649,
+      "diferenca_de_erro_superior": 0.2054644856,
+      "log_densidade_media": -1.7306831679,
+      "diferenca_de_log_densidade_para_o_hierarquico": -0.1395477269,
+      "diferenca_de_log_densidade_inferior": -0.3496108564,
+      "diferenca_de_log_densidade_superior": 0.0496959169
+    }
+  },
+  "validacao_cruzada_desenho": {
+    "cortes_deixados_de_fora": 23,
+    "posts_previstos": 42
+  },
+  "validacao_no_tempo": {
+    "treina_ate": "2026-11-08T12:00:00",
+    "posts_de_treino": 23,
+    "posts_de_teste": 19,
+    "posts_de_treino_por_canal_minimo": 3,
+    "posts_de_treino_por_canal_maximo": 4,
+    "resumo": {
+      "agrupamento_total": {
+        "posts_previstos": 19.0,
+        "erro_absoluto_medio": 2.1510414347,
+        "erro_inferior": 1.7331167513,
+        "erro_superior": 2.4909764286,
+        "fator_de_erro": 8.5938036234,
+        "diferenca_de_erro_para_o_hierarquico": 1.1045566782,
+        "diferenca_de_erro_inferior": 0.7827993467,
+        "diferenca_de_erro_superior": 1.3427975463,
+        "log_densidade_media": -2.3029332454,
+        "diferenca_de_log_densidade_para_o_hierarquico": -1.0271627557,
+        "diferenca_de_log_densidade_inferior": -1.1749049862,
+        "diferenca_de_log_densidade_superior": -0.8643267084
+      },
+      "hierarquico": {
+        "posts_previstos": 19.0,
+        "erro_absoluto_medio": 1.0464847565,
+        "erro_inferior": 0.7412888149,
+        "erro_superior": 1.2655974347,
+        "fator_de_erro": 2.8476234137,
+        "diferenca_de_erro_para_o_hierarquico": 0.0,
+        "diferenca_de_erro_inferior": 0.0,
+        "diferenca_de_erro_superior": 0.0,
+        "log_densidade_media": -1.2757704897,
+        "diferenca_de_log_densidade_para_o_hierarquico": 0.0,
+        "diferenca_de_log_densidade_inferior": 0.0,
+        "diferenca_de_log_densidade_superior": 0.0
+      },
+      "hierarquico_sem_plataforma": {
+        "posts_previstos": 19.0,
+        "erro_absoluto_medio": 1.5638552527,
+        "erro_inferior": 1.0770244688,
+        "erro_superior": 1.9703070449,
+        "fator_de_erro": 4.7772031144,
+        "diferenca_de_erro_para_o_hierarquico": 0.5173704962,
+        "diferenca_de_erro_inferior": 0.1583620859,
+        "diferenca_de_erro_superior": 0.7703188768,
+        "log_densidade_media": -1.4974315466,
+        "diferenca_de_log_densidade_para_o_hierarquico": -0.2216610568,
+        "diferenca_de_log_densidade_inferior": -0.300506141,
+        "diferenca_de_log_densidade_superior": -0.1212488273
+      },
+      "media_crua": {
+        "posts_previstos": 19.0,
+        "erro_absoluto_medio": 1.1343597104,
+        "erro_inferior": 0.7677388737,
+        "erro_superior": 1.4391330678,
+        "fator_de_erro": 3.1091821284,
+        "diferenca_de_erro_para_o_hierarquico": 0.0878749539,
+        "diferenca_de_erro_inferior": -0.1394936228,
+        "diferenca_de_erro_superior": 0.3035737026,
+        "log_densidade_media": -1.2111997533,
+        "diferenca_de_log_densidade_para_o_hierarquico": 0.0645707365,
+        "diferenca_de_log_densidade_inferior": -0.0279095472,
+        "diferenca_de_log_densidade_superior": 0.1690619728
+      },
+      "por_plataforma": {
+        "posts_previstos": 19.0,
+        "erro_absoluto_medio": 1.0403396929,
+        "erro_inferior": 0.7519293827,
+        "erro_superior": 1.2546979746,
+        "fator_de_erro": 2.8301782425,
+        "diferenca_de_erro_para_o_hierarquico": -0.0061450636,
+        "diferenca_de_erro_inferior": -0.0377276966,
+        "diferenca_de_erro_superior": 0.0309053513,
+        "log_densidade_media": -1.2783826009,
+        "diferenca_de_log_densidade_para_o_hierarquico": -0.0026121112,
+        "diferenca_de_log_densidade_inferior": -0.0655178262,
+        "diferenca_de_log_densidade_superior": 0.0447693152
+      },
+      "sem_agrupamento": {
+        "posts_previstos": 19.0,
+        "erro_absoluto_medio": 1.1300877891,
+        "erro_inferior": 0.7642300814,
+        "erro_superior": 1.4330535115,
+        "fator_de_erro": 3.0959282769,
+        "diferenca_de_erro_para_o_hierarquico": 0.0836030326,
+        "diferenca_de_erro_inferior": -0.1376220702,
+        "diferenca_de_erro_superior": 0.2930142974,
+        "log_densidade_media": -1.3537140598,
+        "diferenca_de_log_densidade_para_o_hierarquico": -0.07794357,
+        "diferenca_de_log_densidade_inferior": -0.1633487961,
+        "diferenca_de_log_densidade_superior": 0.0165623709
+      }
+    }
+  },
+  "decisao": {
+    "p_melhor": {
+      "TikTok · Games": 0.471125,
+      "TikTok · Negócios": 0.2601875,
+      "TikTok · Ciência": 0.268,
+      "YouTube · Games": 0.0006875,
+      "YouTube · Negócios": 0.0,
+      "YouTube · Ciência": 0.0
+    },
+    "p_melhor_e_do_tiktok": 0.9993125,
+    "lider": "TikTok · Games",
+    "p_do_lider": 0.471125,
+    "perda_esperada_por_post": {
+      "TikTok · Games": 45.215884095206725,
+      "TikTok · Negócios": 94.78116468749556,
+      "TikTok · Ciência": 92.9802776914041,
+      "YouTube · Games": 523.554958898452,
+      "YouTube · Negócios": 540.6395547625552,
+      "YouTube · Ciência": 546.7963369579751
+    },
+    "tiktok_sobre_youtube": {
+      "fator": 14.989510611706567,
+      "inferior": 4.0354839268663545,
+      "superior": 55.825373417805295,
+      "p_tiktok_maior": 0.9991875
+    },
+    "dentro_da_plataforma": {
+      "tiktok": {
+        "fator_melhor_sobre_pior": 1.2836318033444656,
+        "inferior": 1.0108691320469696,
+        "superior": 2.325772032155359,
+        "p_diferenca_menor_que_25_por_cento": 0.4545,
+        "p_melhor_dentro_da_plataforma": [
+          0.4715,
+          0.260375,
+          0.268125
+        ]
+      },
+      "youtube": {
+        "fator_melhor_sobre_pior": 1.550961673026408,
+        "inferior": 1.0107315417890146,
+        "superior": 15.532105967178488,
+        "p_diferenca_menor_que_25_por_cento": 0.3269375,
+        "p_melhor_dentro_da_plataforma": [
+          0.5908125,
+          0.2520625,
+          0.157125
+        ]
+      }
+    },
+    "p_melhor_nicho": {
+      "Games": 0.517875,
+      "Negócios": 0.2435625,
+      "Ciência": 0.2385625
+    }
+  },
+  "media_de_views_implicada_pelo_modelo": {
+    "TikTok · Games": {
+      "media_implicada": 707.2932440639293,
+      "inferior": 470.6864549432065,
+      "superior": 1265.4060387481336,
+      "p_melhor": 0.1604375
+    },
+    "TikTok · Negócios": {
+      "media_implicada": 650.0321788240317,
+      "inferior": 426.2077261997048,
+      "superior": 1080.5350283574473,
+      "p_melhor": 0.090125
+    },
+    "TikTok · Ciência": {
+      "media_implicada": 649.7745153965873,
+      "inferior": 417.4257503236087,
+      "superior": 1119.8548068207083,
+      "p_melhor": 0.09025
+    },
+    "YouTube · Games": {
+      "media_implicada": 1087.1856055637527,
+      "inferior": 212.09363222967067,
+      "superior": 17676.61355259916,
+      "p_melhor": 0.3886875
+    },
+    "YouTube · Negócios": {
+      "media_implicada": 790.2559927978732,
+      "inferior": 138.46775855908973,
+      "superior": 14785.830547447013,
+      "p_melhor": 0.162125
+    },
+    "YouTube · Ciência": {
+      "media_implicada": 654.3891971632999,
+      "inferior": 77.14237309347163,
+      "superior": 12879.768075733251,
+      "p_melhor": 0.108375
+    }
+  },
+  "simulacao": {
+    "horizonte": {
+      "semanas": 4,
+      "de": "2026-11-16",
+      "posts_na_agenda": 166,
+      "horizonte": 168
+    },
+    "mundos": 2000,
+    "politicas": {
+      "igual": {
+        "politica": "Repartição igual",
+        "posts_por_canal_antes_de_decidir": null,
+        "arrependimento_medio": 51381.1544008903,
+        "arrependimento_p10": 36040.6431678141,
+        "arrependimento_mediano": 48048.7824610145,
+        "arrependimento_p90": 70324.0239512585,
+        "parcela_perdida_do_ideal": 0.5319896323,
+        "parcela_dos_posts_no_melhor_canal": 0.1666666667,
+        "parcela_dos_posts_no_tiktok": 0.5,
+        "p_termina_fora_do_melhor_canal": null,
+        "p_termina_em_canal_ruim": null,
+        "p_termina_na_plataforma_errada": null,
+        "p_perde_menos_que_a_reparticao_igual": 0.0,
+        "p_perde_menos_que_thompson": 0.0
+      },
+      "thompson": {
+        "politica": "Amostragem de Thompson",
+        "posts_por_canal_antes_de_decidir": null,
+        "arrependimento_medio": 11615.2852425735,
+        "arrependimento_p10": 5487.0007251955,
+        "arrependimento_mediano": 10571.54343701,
+        "arrependimento_p90": 18778.2051962454,
+        "parcela_perdida_do_ideal": 0.1202622128,
+        "parcela_dos_posts_no_melhor_canal": 0.4974375,
+        "parcela_dos_posts_no_tiktok": 0.9230178571,
+        "p_termina_fora_do_melhor_canal": 0.3165,
+        "p_termina_em_canal_ruim": 0.0145,
+        "p_termina_na_plataforma_errada": 0.0,
+        "p_perde_menos_que_a_reparticao_igual": 1.0,
+        "p_perde_menos_que_thompson": 0.0
+      },
+      "lider_1": {
+        "politica": "Tudo no líder depois de 1 posts por canal",
+        "posts_por_canal_antes_de_decidir": 1,
+        "arrependimento_medio": 30388.6378486561,
+        "arrependimento_p10": 1559.9163071955,
+        "arrependimento_mediano": 10695.7671649736,
+        "arrependimento_p90": 87439.1916506672,
+        "parcela_perdida_do_ideal": 0.3146375449,
+        "parcela_dos_posts_no_melhor_canal": 0.2870416667,
+        "parcela_dos_posts_no_tiktok": 0.7280535714,
+        "p_termina_fora_do_melhor_canal": 0.7085,
+        "p_termina_em_canal_ruim": 0.4,
+        "p_termina_na_plataforma_errada": 0.2625,
+        "p_perde_menos_que_a_reparticao_igual": 0.739,
+        "p_perde_menos_que_thompson": 0.4955
+      },
+      "lider_2": {
+        "politica": "Tudo no líder depois de 2 posts por canal",
+        "posts_por_canal_antes_de_decidir": 2,
+        "arrependimento_medio": 20987.4100314255,
+        "arrependimento_p10": 2988.5379763549,
+        "arrependimento_mediano": 6776.5838094526,
+        "arrependimento_p90": 71647.1750785058,
+        "parcela_perdida_do_ideal": 0.2172992156,
+        "parcela_dos_posts_no_melhor_canal": 0.3629047619,
+        "parcela_dos_posts_no_tiktok": 0.8352142857,
+        "p_termina_fora_do_melhor_canal": 0.622,
+        "p_termina_em_canal_ruim": 0.274,
+        "p_termina_na_plataforma_errada": 0.138,
+        "p_perde_menos_que_a_reparticao_igual": 0.8625,
+        "p_perde_menos_que_thompson": 0.5675
+      },
+      "lider_3": {
+        "politica": "Tudo no líder depois de 3 posts por canal",
+        "posts_por_canal_antes_de_decidir": 3,
+        "arrependimento_medio": 18433.3518332078,
+        "arrependimento_p10": 4420.4040567345,
+        "arrependimento_mediano": 8062.7070695725,
+        "arrependimento_p90": 55506.572134499,
+        "parcela_perdida_do_ideal": 0.1908550358,
+        "parcela_dos_posts_no_melhor_canal": 0.3928571429,
+        "parcela_dos_posts_no_tiktok": 0.85625,
+        "p_termina_fora_do_melhor_canal": 0.58,
+        "p_termina_em_canal_ruim": 0.2205,
+        "p_termina_na_plataforma_errada": 0.101,
+        "p_perde_menos_que_a_reparticao_igual": 0.9005,
+        "p_perde_menos_que_thompson": 0.5405
+      },
+      "lider_5": {
+        "politica": "Tudo no líder depois de 5 posts por canal",
+        "posts_por_canal_antes_de_decidir": 5,
+        "arrependimento_medio": 17019.3291520807,
+        "arrependimento_p10": 7010.3778740633,
+        "arrependimento_mediano": 10934.3859188657,
+        "arrependimento_p90": 34193.8387403021,
+        "parcela_perdida_do_ideal": 0.1762145433,
+        "parcela_dos_posts_no_melhor_canal": 0.4228154762,
+        "parcela_dos_posts_no_tiktok": 0.8762142857,
+        "p_termina_fora_do_melhor_canal": 0.5215,
+        "p_termina_em_canal_ruim": 0.1565,
+        "p_termina_na_plataforma_errada": 0.041,
+        "p_perde_menos_que_a_reparticao_igual": 0.9595,
+        "p_perde_menos_que_thompson": 0.3815
+      },
+      "lider_10": {
+        "politica": "Tudo no líder depois de 10 posts por canal",
+        "posts_por_canal_antes_de_decidir": 10,
+        "arrependimento_medio": 21725.8055108481,
+        "arrependimento_p10": 13633.3192230006,
+        "arrependimento_mediano": 19162.8054905363,
+        "arrependimento_p90": 32736.2133835565,
+        "parcela_perdida_do_ideal": 0.2249444066,
+        "parcela_dos_posts_no_melhor_canal": 0.4230595238,
+        "parcela_dos_posts_no_tiktok": 0.8146785714,
+        "p_termina_fora_do_melhor_canal": 0.4345,
+        "p_termina_em_canal_ruim": 0.087,
+        "p_termina_na_plataforma_errada": 0.0095,
+        "p_perde_menos_que_a_reparticao_igual": 0.992,
+        "p_perde_menos_que_thompson": 0.06
+      },
+      "lider_15": {
+        "politica": "Tudo no líder depois de 15 posts por canal",
+        "posts_por_canal_antes_de_decidir": 15,
+        "arrependimento_medio": 29525.6373569879,
+        "arrependimento_p10": 19972.6635454009,
+        "arrependimento_mediano": 27461.1552379162,
+        "arrependimento_p90": 41878.9511237244,
+        "parcela_perdida_do_ideal": 0.3057022199,
+        "parcela_dos_posts_no_melhor_canal": 0.3625178571,
+        "parcela_dos_posts_no_tiktok": 0.7288928571,
+        "p_termina_fora_do_melhor_canal": 0.4115,
+        "p_termina_em_canal_ruim": 0.0645,
+        "p_termina_na_plataforma_errada": 0.006,
+        "p_perde_menos_que_a_reparticao_igual": 0.9945,
+        "p_perde_menos_que_thompson": 0.0095
+      }
+    }
+  },
+  "para_o_site": {
+    "numero_chave": {
+      "pt": "22% → 1,5%",
+      "en": "22% → 1.5%",
+      "es": "22% → 1,5%"
+    },
+    "pergunta": {
+      "pt": "Com poucos posts em cada canal, em qual canal apostar, e quanto custa decidir cedo demais?",
+      "en": "With only a handful of posts per channel, which one do you back, and what does deciding too early cost?",
+      "es": "Con pocos posts en cada canal, ¿en cuál apostar y cuánto cuesta decidir demasiado pronto?"
+    },
+    "resultado": {
+      "pt": "A plataforma dá para escolher: a probabilidade de o melhor canal ser do TikTok passa de 99,9%, e o post típico de lá rende 15 vezes o do YouTube (intervalo de 95%: 4 a 56). O canal, não: o líder (TikTok · Games) tem só 47% de chance de ser o melhor, e a liderança troca conforme o tratamento dos posts recentes.",
+      "en": "The platform can be chosen: the probability that the best channel is on TikTok is above 99.9%, and a typical post there earns 15 times a YouTube one (95% interval: 4 to 56). The channel cannot: the leader (TikTok · Games) has only a 47% chance of being the best, and the lead changes hands depending on how recent posts are handled.",
+      "es": "La plataforma sí se puede elegir: la probabilidad de que el mejor canal sea de TikTok supera el 99,9%, y el post típico de allí rinde 15 veces el de YouTube (intervalo del 95%: 4 a 56). El canal, no: el líder (TikTok · Games) tiene solo un 47% de probabilidad de ser el mejor, y el liderazgo cambia según cómo se traten los posts recientes."
+    },
+    "detalhe": {
+      "pt": "Apostar tudo no líder depois de 3 posts por canal termina num canal ruim em 22% dos mundos simulados; a amostragem de Thompson, em 1,5%. No gráfico, as views perdidas em 168 posts: Thompson perde 12% do que era possível, contra 53% da repartição igual; a faixa cobre 80% dos mundos.",
+      "en": "Going all in on the leader after 3 posts per channel ends up on a bad channel in 22% of simulated worlds; Thompson sampling does in 1.5%. The chart shows views lost over 168 posts: Thompson gives up 12% of what was achievable, against 53% for an equal split; the band covers 80% of worlds.",
+      "es": "Apostarlo todo al líder tras 3 posts por canal termina en un canal malo en el 22% de los mundos simulados; el muestreo de Thompson, en el 1,5%. En el gráfico, las views perdidas en 168 posts: Thompson pierde el 12% de lo posible, frente al 53% del reparto igual; la banda cubre el 80% de los mundos."
+    },
+    "dados": {
+      "pt": "64 posts de 35 cortes em seis canais (três nichos no TikTok e no YouTube), publicados de 7 a 10/11/2026; operação própria, dados anonimizados.",
+      "en": "64 posts from 35 clips across six channels (three niches on TikTok and YouTube), published Nov 7–10, 2026; the author's own operation, anonymized data.",
+      "es": "64 posts de 35 cortes en seis canales (tres nichos en TikTok y YouTube), publicados del 7 al 10/11/2026; operación propia, datos anonimizados."
+    },
+    "etiquetas": [
+      "Bayes hierárquico",
+      "MCMC (Gibbs, Metropolis)",
+      "R-hat e ESS",
+      "Thompson sampling",
+      "NumPy/SciPy"
+    ],
+    "grafico": {
+      "tipo": "linhas",
+      "titulo": {
+        "pt": "Views perdidas ao longo dos posts, por regra de alocação",
+        "en": "Views lost as posts go out, by allocation rule",
+        "es": "Views perdidas a lo largo de los posts, por regla de asignación"
+      },
+      "eixo_x": {
+        "pt": "posts publicados",
+        "en": "posts published",
+        "es": "posts publicados"
+      },
+      "eixo_y": {
+        "pt": "views do post típico perdidas (acumulado)",
+        "en": "typical-post views lost (cumulative)",
+        "es": "views del post típico perdidas (acumulado)"
+      },
+      "formato_x": "numero",
+      "formato_y": "numero",
+      "series": [
+        {
+          "nome": {
+            "pt": "Amostragem de Thompson",
+            "en": "Thompson sampling",
+            "es": "Muestreo de Thompson"
+          },
+          "papel": "principal",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              1610
+            ],
+            [
+              12,
+              2677
+            ],
+            [
+              18,
+              3428
+            ],
+            [
+              24,
+              4046
+            ],
+            [
+              30,
+              4590
+            ],
+            [
+              36,
+              5077
+            ],
+            [
+              42,
+              5539
+            ],
+            [
+              48,
+              5970
+            ],
+            [
+              54,
+              6363
+            ],
+            [
+              60,
+              6746
+            ],
+            [
+              66,
+              7109
+            ],
+            [
+              72,
+              7441
+            ],
+            [
+              78,
+              7767
+            ],
+            [
+              84,
+              8076
+            ],
+            [
+              90,
+              8380
+            ],
+            [
+              96,
+              8684
+            ],
+            [
+              102,
+              8979
+            ],
+            [
+              108,
+              9252
+            ],
+            [
+              114,
+              9519
+            ],
+            [
+              120,
+              9769
+            ],
+            [
+              126,
+              10013
+            ],
+            [
+              132,
+              10250
+            ],
+            [
+              138,
+              10485
+            ],
+            [
+              144,
+              10723
+            ],
+            [
+              150,
+              10955
+            ],
+            [
+              156,
+              11175
+            ],
+            [
+              162,
+              11397
+            ],
+            [
+              168,
+              11615
+            ]
+          ]
+        },
+        {
+          "nome": {
+            "pt": "Repartição igual (regra atual)",
+            "en": "Equal split (current rule)",
+            "es": "Reparto igual (regla actual)"
+          },
+          "papel": "base",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              1835
+            ],
+            [
+              12,
+              3670
+            ],
+            [
+              18,
+              5505
+            ],
+            [
+              24,
+              7340
+            ],
+            [
+              30,
+              9175
+            ],
+            [
+              36,
+              11010
+            ],
+            [
+              42,
+              12845
+            ],
+            [
+              48,
+              14680
+            ],
+            [
+              54,
+              16515
+            ],
+            [
+              60,
+              18350
+            ],
+            [
+              66,
+              20185
+            ],
+            [
+              72,
+              22020
+            ],
+            [
+              78,
+              23856
+            ],
+            [
+              84,
+              25691
+            ],
+            [
+              90,
+              27526
+            ],
+            [
+              96,
+              29361
+            ],
+            [
+              102,
+              31196
+            ],
+            [
+              108,
+              33031
+            ],
+            [
+              114,
+              34866
+            ],
+            [
+              120,
+              36701
+            ],
+            [
+              126,
+              38536
+            ],
+            [
+              132,
+              40371
+            ],
+            [
+              138,
+              42206
+            ],
+            [
+              144,
+              44041
+            ],
+            [
+              150,
+              45876
+            ],
+            [
+              156,
+              47711
+            ],
+            [
+              162,
+              49546
+            ],
+            [
+              168,
+              51381
+            ]
+          ]
+        },
+        {
+          "nome": {
+            "pt": "Tudo no líder depois de 3 posts por canal",
+            "en": "All in on the leader after 3 posts per channel",
+            "es": "Todo al líder tras 3 posts por canal"
+          },
+          "papel": "alternativa",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              1835
+            ],
+            [
+              12,
+              3670
+            ],
+            [
+              18,
+              5505
+            ],
+            [
+              24,
+              6022
+            ],
+            [
+              30,
+              6539
+            ],
+            [
+              36,
+              7057
+            ],
+            [
+              42,
+              7574
+            ],
+            [
+              48,
+              8091
+            ],
+            [
+              54,
+              8608
+            ],
+            [
+              60,
+              9125
+            ],
+            [
+              66,
+              9642
+            ],
+            [
+              72,
+              10159
+            ],
+            [
+              78,
+              10676
+            ],
+            [
+              84,
+              11194
+            ],
+            [
+              90,
+              11711
+            ],
+            [
+              96,
+              12228
+            ],
+            [
+              102,
+              12745
+            ],
+            [
+              108,
+              13262
+            ],
+            [
+              114,
+              13779
+            ],
+            [
+              120,
+              14296
+            ],
+            [
+              126,
+              14813
+            ],
+            [
+              132,
+              15331
+            ],
+            [
+              138,
+              15848
+            ],
+            [
+              144,
+              16365
+            ],
+            [
+              150,
+              16882
+            ],
+            [
+              156,
+              17399
+            ],
+            [
+              162,
+              17916
+            ],
+            [
+              168,
+              18433
+            ]
+          ]
+        },
+        {
+          "nome": {
+            "pt": "Tudo no líder depois de 10 posts por canal",
+            "en": "All in on the leader after 10 posts per channel",
+            "es": "Todo al líder tras 10 posts por canal"
+          },
+          "papel": "neutro",
+          "pontos": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              1835
+            ],
+            [
+              12,
+              3670
+            ],
+            [
+              18,
+              5505
+            ],
+            [
+              24,
+              7340
+            ],
+            [
+              30,
+              9175
+            ],
+            [
+              36,
+              11010
+            ],
+            [
+              42,
+              12845
+            ],
+            [
+              48,
+              14680
+            ],
+            [
+              54,
+              16515
+            ],
+            [
+              60,
+              18350
+            ],
+            [
+              66,
+              18538
+            ],
+            [
+              72,
+              18725
+            ],
+            [
+              78,
+              18913
+            ],
+            [
+              84,
+              19100
+            ],
+            [
+              90,
+              19288
+            ],
+            [
+              96,
+              19476
+            ],
+            [
+              102,
+              19663
+            ],
+            [
+              108,
+              19851
+            ],
+            [
+              114,
+              20038
+            ],
+            [
+              120,
+              20226
+            ],
+            [
+              126,
+              20413
+            ],
+            [
+              132,
+              20601
+            ],
+            [
+              138,
+              20788
+            ],
+            [
+              144,
+              20976
+            ],
+            [
+              150,
+              21163
+            ],
+            [
+              156,
+              21351
+            ],
+            [
+              162,
+              21538
+            ],
+            [
+              168,
+              21726
+            ]
+          ]
+        }
+      ],
+      "faixa": {
+        "serie": 0,
+        "inferior": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            802
+          ],
+          [
+            12,
+            1441
+          ],
+          [
+            18,
+            1824
+          ],
+          [
+            24,
+            2059
+          ],
+          [
+            30,
+            2287
+          ],
+          [
+            36,
+            2465
+          ],
+          [
+            42,
+            2648
+          ],
+          [
+            48,
+            2837
+          ],
+          [
+            54,
+            2986
+          ],
+          [
+            60,
+            3125
+          ],
+          [
+            66,
+            3274
+          ],
+          [
+            72,
+            3467
+          ],
+          [
+            78,
+            3677
+          ],
+          [
+            84,
+            3776
+          ],
+          [
+            90,
+            3896
+          ],
+          [
+            96,
+            4020
+          ],
+          [
+            102,
+            4159
+          ],
+          [
+            108,
+            4270
+          ],
+          [
+            114,
+            4379
+          ],
+          [
+            120,
+            4498
+          ],
+          [
+            126,
+            4645
+          ],
+          [
+            132,
+            4793
+          ],
+          [
+            138,
+            4912
+          ],
+          [
+            144,
+            5040
+          ],
+          [
+            150,
+            5137
+          ],
+          [
+            156,
+            5260
+          ],
+          [
+            162,
+            5340
+          ],
+          [
+            168,
+            5487
+          ]
+        ],
+        "superior": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            2566
+          ],
+          [
+            12,
+            4200
+          ],
+          [
+            18,
+            5426
+          ],
+          [
+            24,
+            6481
+          ],
+          [
+            30,
+            7368
+          ],
+          [
+            36,
+            8180
+          ],
+          [
+            42,
+            9051
+          ],
+          [
+            48,
+            9805
+          ],
+          [
+            54,
+            10482
+          ],
+          [
+            60,
+            11015
+          ],
+          [
+            66,
+            11661
+          ],
+          [
+            72,
+            12145
+          ],
+          [
+            78,
+            12688
+          ],
+          [
+            84,
+            13176
+          ],
+          [
+            90,
+            13768
+          ],
+          [
+            96,
+            14248
+          ],
+          [
+            102,
+            14738
+          ],
+          [
+            108,
+            15125
+          ],
+          [
+            114,
+            15625
+          ],
+          [
+            120,
+            16075
+          ],
+          [
+            126,
+            16317
+          ],
+          [
+            132,
+            16612
+          ],
+          [
+            138,
+            16941
+          ],
+          [
+            144,
+            17276
+          ],
+          [
+            150,
+            17811
+          ],
+          [
+            156,
+            17985
+          ],
+          [
+            162,
+            18352
+          ],
+          [
+            168,
+            18778
+          ]
+        ]
+      }
+    }
+  }
+}

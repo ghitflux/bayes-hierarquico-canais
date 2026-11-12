@@ -1,0 +1,15 @@
+{
+  "origem": "extratos anonimizados do estudo nota-viral-cortes (github.com/ghitflux/nota-viral-cortes)",
+  "arquivos": {
+    "posts_metricas.csv": {
+      "bytes": 10076,
+      "linhas": 123,
+      "sha256": "8952abe0b1992dfc29a5065211287ef2cef535d70783c85a31728380daa51e20"
+    },
+    "agenda_semanal.csv": {
+      "bytes": 453,
+      "linhas": 25,
+      "sha256": "f896705c29d7ce91f103177873b768b0d3bb0b51009624721c3b23130cafa8a7"
+    }
+  }
+}
