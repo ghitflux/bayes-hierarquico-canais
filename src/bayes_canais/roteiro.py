@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.figure import Figure
 
-from bayes_canais import analise, dados, graficos, site
+from bayes_canais import analise, dados, graficos, site, site_extras
 
 SEMENTE = 2026
 TRATAMENTO_PRINCIPAL = "Jovem de 12 a 24 h entre o observado e 5x (principal)"
@@ -125,5 +125,8 @@ def para_json(r: dict) -> dict:
         "decisao": r["decisao"],
         "media_de_views_implicada_pelo_modelo": r["media_no_modelo"],
         "simulacao": {"horizonte": r["horizonte"], "mundos": int(r["curvas"]["igual"].shape[0]), "politicas": _json(r["simulacao"])},
-        "para_o_site": site.bloco(r["amostra"], r["decisao"], r["simulacao"], r["curvas"], [str(v) for v in r["jovens"]["lider"]]),
+        "para_o_site": {
+            **site.bloco(r["amostra"], r["decisao"], r["simulacao"], r["curvas"], [str(v) for v in r["jovens"]["lider"]]),
+            "graficos_extras": site_extras.graficos_extras(r, analise.PRIORIS),
+        },
     }

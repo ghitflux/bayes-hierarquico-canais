@@ -2059,6 +2059,1317 @@
           ]
         ]
       }
-    }
+    },
+    "graficos_extras": [
+      {
+        "tipo": "linhas",
+        "titulo": {
+          "pt": "Apostar no líder com 3 posts por canal dá num canal ruim em 22% das vezes",
+          "en": "Backing the leader after 3 posts per channel lands on a bad channel 22% of the time",
+          "es": "Apostar al líder tras 3 posts por canal acaba en un canal malo el 22% de las veces"
+        },
+        "eixo_x": {
+          "pt": "posts por canal antes de apostar tudo no líder",
+          "en": "posts per channel before going all in",
+          "es": "posts por canal antes de apostarlo todo"
+        },
+        "eixo_y": {
+          "pt": "chance de terminar num canal ruim",
+          "en": "chance of ending on a bad channel",
+          "es": "probabilidad de terminar en un canal malo"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "series": [
+          {
+            "nome": {
+              "pt": "Tudo no líder depois de N posts",
+              "en": "All in on the leader after N posts",
+              "es": "Todo al líder tras N posts"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                1,
+                0.4
+              ],
+              [
+                2,
+                0.274
+              ],
+              [
+                3,
+                0.2205
+              ],
+              [
+                5,
+                0.1565
+              ],
+              [
+                10,
+                0.087
+              ],
+              [
+                15,
+                0.0645
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "Amostragem de Thompson",
+              "en": "Thompson sampling",
+              "es": "Muestreo de Thompson"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                1,
+                0.0145
+              ],
+              [
+                15,
+                0.0145
+              ]
+            ]
+          }
+        ],
+        "leitura": {
+          "pt": "Esperar mais posts reduz o risco de 40% para 6%, mas gasta o mês nos canais fracos; o Thompson fica em 1,5% sem precisar escolher N. Canal ruim: post típico abaixo de 80% do melhor.",
+          "en": "Waiting longer cuts the risk from 40% to 6% but burns the month on weak channels; Thompson sits at 1.5% with no N to pick. A bad channel's typical post earns under 80% of the best one's.",
+          "es": "Esperar más posts baja el riesgo del 40% al 6%, pero gasta el mes en los canales flojos; Thompson queda en el 1,5% sin tener que elegir N. Canal malo: post típico por debajo del 80% del mejor."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Entre plataformas a diferença é clara; dentro de cada uma, quase some",
+          "en": "The gap between platforms is clear; within each one it nearly vanishes",
+          "es": "Entre plataformas la diferencia es clara; dentro de cada una, casi desaparece"
+        },
+        "eixo_x": {
+          "pt": "canal",
+          "en": "channel",
+          "es": "canal"
+        },
+        "eixo_y": {
+          "pt": "views do post típico (mediana)",
+          "en": "typical-post views (median)",
+          "es": "views del post típico (mediana)"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Modelo hierárquico",
+              "en": "Hierarchical model",
+              "es": "Modelo jerárquico"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "TikTok · Games",
+                514.0
+              ],
+              [
+                "TikTok · Negócios",
+                473.0
+              ],
+              [
+                "TikTok · Ciência",
+                473.6
+              ],
+              [
+                "YouTube · Games",
+                40.6
+              ],
+              [
+                "YouTube · Negócios",
+                30.5
+              ],
+              [
+                "YouTube · Ciência",
+                25.2
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "TikTok · Games",
+                "TikTok · Negócios",
+                "TikTok · Ciência",
+                "YouTube · Games",
+                "YouTube · Negócios",
+                "YouTube · Ciência"
+              ],
+              "en": [
+                "TikTok · Gaming",
+                "TikTok · Business",
+                "TikTok · Science",
+                "YouTube · Gaming",
+                "YouTube · Business",
+                "YouTube · Science"
+              ],
+              "es": [
+                "TikTok · Videojuegos",
+                "TikTok · Negocios",
+                "TikTok · Ciencia",
+                "YouTube · Videojuegos",
+                "YouTube · Negocios",
+                "YouTube · Ciencia"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Cada canal sozinho",
+              "en": "Each channel on its own",
+              "es": "Cada canal por separado"
+            },
+            "papel": "base",
+            "pontos": [
+              [
+                "TikTok · Games",
+                548.3
+              ],
+              [
+                "TikTok · Negócios",
+                459.9
+              ],
+              [
+                "TikTok · Ciência",
+                437.5
+              ],
+              [
+                "YouTube · Games",
+                129.6
+              ],
+              [
+                "YouTube · Negócios",
+                25.5
+              ],
+              [
+                "YouTube · Ciência",
+                6.7
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "TikTok · Games",
+                "TikTok · Negócios",
+                "TikTok · Ciência",
+                "YouTube · Games",
+                "YouTube · Negócios",
+                "YouTube · Ciência"
+              ],
+              "en": [
+                "TikTok · Gaming",
+                "TikTok · Business",
+                "TikTok · Science",
+                "YouTube · Gaming",
+                "YouTube · Business",
+                "YouTube · Science"
+              ],
+              "es": [
+                "TikTok · Videojuegos",
+                "TikTok · Negocios",
+                "TikTok · Ciencia",
+                "YouTube · Videojuegos",
+                "YouTube · Negocios",
+                "YouTube · Ciencia"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Todos iguais",
+              "en": "All channels pooled",
+              "es": "Todos iguales"
+            },
+            "papel": "neutro",
+            "pontos": [
+              [
+                "TikTok · Games",
+                145.6
+              ],
+              [
+                "TikTok · Negócios",
+                145.6
+              ],
+              [
+                "TikTok · Ciência",
+                145.6
+              ],
+              [
+                "YouTube · Games",
+                145.6
+              ],
+              [
+                "YouTube · Negócios",
+                145.6
+              ],
+              [
+                "YouTube · Ciência",
+                145.6
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "TikTok · Games",
+                "TikTok · Negócios",
+                "TikTok · Ciência",
+                "YouTube · Games",
+                "YouTube · Negócios",
+                "YouTube · Ciência"
+              ],
+              "en": [
+                "TikTok · Gaming",
+                "TikTok · Business",
+                "TikTok · Science",
+                "YouTube · Gaming",
+                "YouTube · Business",
+                "YouTube · Science"
+              ],
+              "es": [
+                "TikTok · Videojuegos",
+                "TikTok · Negocios",
+                "TikTok · Ciencia",
+                "YouTube · Videojuegos",
+                "YouTube · Negocios",
+                "YouTube · Ciencia"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Sozinhos, os canais do YouTube vão de 7 a 130 views por post típico; o modelo hierárquico os aproxima da média da plataforma (25 a 41). Juntar tudo dá 146, que não descreve nenhuma das duas.",
+          "en": "On their own, the YouTube channels range from 7 to 130 views per typical post; the hierarchical model pulls them toward the platform mean (25 to 41). Pooling everything gives 146, which fits neither platform.",
+          "es": "Por separado, los canales de YouTube van de 7 a 130 views por post típico; el modelo jerárquico los acerca a la media de la plataforma (25 a 41). Juntarlo todo da 146, que no describe a ninguna de las dos."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Na previsão, o modelo hierárquico empata com as alternativas simples",
+          "en": "When predicting, the hierarchical model ties with the simple alternatives",
+          "es": "Al predecir, el modelo jerárquico empata con las alternativas simples"
+        },
+        "eixo_x": {
+          "pt": "forma de estimar",
+          "en": "estimation approach",
+          "es": "forma de estimar"
+        },
+        "eixo_y": {
+          "pt": "erro absoluto médio em log (menor é melhor)",
+          "en": "mean absolute error in log (lower is better)",
+          "es": "error absoluto medio en log (menor es mejor)"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Um corte de fora por vez",
+              "en": "Leave one clip out",
+              "es": "Un corte fuera cada vez"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "hierarquico",
+                1.191
+              ],
+              [
+                "por_plataforma",
+                1.187
+              ],
+              [
+                "media_crua",
+                1.187
+              ],
+              [
+                "sem_agrupamento",
+                1.189
+              ],
+              [
+                "hierarquico_sem_plataforma",
+                1.331
+              ],
+              [
+                "agrupamento_total",
+                1.891
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Hierárquico (agrupamento parcial)",
+                "Uma média por plataforma",
+                "Média crua do canal (linha de base)",
+                "Sem agrupamento (cada canal sozinho)",
+                "Hierárquico sem a plataforma",
+                "Agrupamento total (todos iguais)"
+              ],
+              "en": [
+                "Hierarchical (partial pooling)",
+                "One mean per platform",
+                "Raw channel mean (baseline)",
+                "No pooling (each channel alone)",
+                "Hierarchical, ignoring platform",
+                "Complete pooling (all equal)"
+              ],
+              "es": [
+                "Jerárquico (agrupamiento parcial)",
+                "Una media por plataforma",
+                "Media cruda del canal (referencia)",
+                "Sin agrupamiento (cada canal solo)",
+                "Jerárquico sin la plataforma",
+                "Agrupamiento total (todos iguales)"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Separação no tempo",
+              "en": "Time-based split",
+              "es": "Separación en el tiempo"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                "hierarquico",
+                1.046
+              ],
+              [
+                "por_plataforma",
+                1.04
+              ],
+              [
+                "media_crua",
+                1.134
+              ],
+              [
+                "sem_agrupamento",
+                1.13
+              ],
+              [
+                "hierarquico_sem_plataforma",
+                1.564
+              ],
+              [
+                "agrupamento_total",
+                2.151
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Hierárquico (agrupamento parcial)",
+                "Uma média por plataforma",
+                "Média crua do canal (linha de base)",
+                "Sem agrupamento (cada canal sozinho)",
+                "Hierárquico sem a plataforma",
+                "Agrupamento total (todos iguais)"
+              ],
+              "en": [
+                "Hierarchical (partial pooling)",
+                "One mean per platform",
+                "Raw channel mean (baseline)",
+                "No pooling (each channel alone)",
+                "Hierarchical, ignoring platform",
+                "Complete pooling (all equal)"
+              ],
+              "es": [
+                "Jerárquico (agrupamiento parcial)",
+                "Una media por plataforma",
+                "Media cruda del canal (referencia)",
+                "Sin agrupamiento (cada canal solo)",
+                "Jerárquico sin la plataforma",
+                "Agrupamiento total (todos iguales)"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Deixando um corte de fora, o hierárquico erra 1,19 e a média crua do canal, 1,19: empate. Só juntar tudo erra claramente mais (1,89). Erro de 1,2 em log é errar as views por um fator de 3,3.",
+          "en": "Leaving one clip out, the hierarchical model errs by 1.19 and the raw channel mean by 1.19: a tie. Only full pooling is clearly worse (1.89). An error of 1.2 in log means missing views by a factor of 3.3.",
+          "es": "Dejando un corte fuera, el jerárquico se equivoca en 1,19 y la media cruda del canal en 1,19: empate. Solo juntarlo todo falla claramente más (1,89). Un error de 1,2 en log es fallar las views por un factor de 3,3."
+        }
+      },
+      {
+        "tipo": "linhas",
+        "titulo": {
+          "pt": "O teto de tau vai de 1,3 a 2,4 conforme a priori: seis canais informam pouco",
+          "en": "The upper bound on tau runs from 1.3 to 2.4 by prior: six channels say little",
+          "es": "El techo de tau va de 1,3 a 2,4 según la priori: seis canales dicen poco"
+        },
+        "eixo_x": {
+          "pt": "tau (desvio entre canais, em log)",
+          "en": "tau (between-channel spread, log)",
+          "es": "tau (desvío entre canales, en log)"
+        },
+        "eixo_y": {
+          "pt": "densidade a posteriori",
+          "en": "posterior density",
+          "es": "densidad a posteriori"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Priori semi-normal(1)",
+              "en": "half-normal(1) prior",
+              "es": "Priori semi-normal(1)"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                0.0,
+                2.0692
+              ],
+              [
+                0.05,
+                2.012
+              ],
+              [
+                0.1,
+                1.8686
+              ],
+              [
+                0.15,
+                1.6917
+              ],
+              [
+                0.2,
+                1.5145
+              ],
+              [
+                0.25,
+                1.3479
+              ],
+              [
+                0.3,
+                1.1964
+              ],
+              [
+                0.35,
+                1.0644
+              ],
+              [
+                0.4,
+                0.9563
+              ],
+              [
+                0.45,
+                0.8728
+              ],
+              [
+                0.5,
+                0.805
+              ],
+              [
+                0.55,
+                0.7378
+              ],
+              [
+                0.6,
+                0.6614
+              ],
+              [
+                0.65,
+                0.5783
+              ],
+              [
+                0.7,
+                0.4977
+              ],
+              [
+                0.75,
+                0.4275
+              ],
+              [
+                0.8,
+                0.3711
+              ],
+              [
+                0.85,
+                0.327
+              ],
+              [
+                0.9,
+                0.2895
+              ],
+              [
+                0.95,
+                0.2525
+              ],
+              [
+                1.0,
+                0.215
+              ],
+              [
+                1.05,
+                0.1826
+              ],
+              [
+                1.1,
+                0.1584
+              ],
+              [
+                1.15,
+                0.1388
+              ],
+              [
+                1.2,
+                0.1189
+              ],
+              [
+                1.25,
+                0.0997
+              ],
+              [
+                1.3,
+                0.0851
+              ],
+              [
+                1.35,
+                0.0759
+              ],
+              [
+                1.4,
+                0.0695
+              ],
+              [
+                1.45,
+                0.0631
+              ],
+              [
+                1.5,
+                0.0555
+              ],
+              [
+                1.55,
+                0.0464
+              ],
+              [
+                1.6,
+                0.0361
+              ],
+              [
+                1.65,
+                0.027
+              ],
+              [
+                1.7,
+                0.0208
+              ],
+              [
+                1.75,
+                0.0171
+              ],
+              [
+                1.8,
+                0.0142
+              ],
+              [
+                1.85,
+                0.0112
+              ],
+              [
+                1.9,
+                0.0087
+              ],
+              [
+                1.95,
+                0.0074
+              ],
+              [
+                2.0,
+                0.0067
+              ],
+              [
+                2.05,
+                0.0061
+              ],
+              [
+                2.1,
+                0.0051
+              ],
+              [
+                2.15,
+                0.0038
+              ],
+              [
+                2.2,
+                0.0025
+              ],
+              [
+                2.25,
+                0.0014
+              ],
+              [
+                2.3,
+                0.0007
+              ],
+              [
+                2.35,
+                0.0005
+              ],
+              [
+                2.4,
+                0.0008
+              ],
+              [
+                2.45,
+                0.0014
+              ],
+              [
+                2.5,
+                0.0021
+              ],
+              [
+                2.55,
+                0.0025
+              ],
+              [
+                2.6,
+                0.0026
+              ],
+              [
+                2.65,
+                0.0022
+              ],
+              [
+                2.7,
+                0.0016
+              ],
+              [
+                2.75,
+                0.0009
+              ],
+              [
+                2.8,
+                0.0004
+              ],
+              [
+                2.85,
+                0.0001
+              ],
+              [
+                2.9,
+                0.0
+              ],
+              [
+                2.95,
+                0.0
+              ],
+              [
+                3.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "Priori semi-Cauchy(1)",
+              "en": "half-Cauchy(1) prior",
+              "es": "Priori semi-Cauchy(1)"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                0.0,
+                2.2373
+              ],
+              [
+                0.05,
+                2.1954
+              ],
+              [
+                0.1,
+                2.0765
+              ],
+              [
+                0.15,
+                1.8969
+              ],
+              [
+                0.2,
+                1.6777
+              ],
+              [
+                0.25,
+                1.4433
+              ],
+              [
+                0.3,
+                1.2181
+              ],
+              [
+                0.35,
+                1.0226
+              ],
+              [
+                0.4,
+                0.867
+              ],
+              [
+                0.45,
+                0.7503
+              ],
+              [
+                0.5,
+                0.6631
+              ],
+              [
+                0.55,
+                0.5945
+              ],
+              [
+                0.6,
+                0.5366
+              ],
+              [
+                0.65,
+                0.4843
+              ],
+              [
+                0.7,
+                0.4336
+              ],
+              [
+                0.75,
+                0.3837
+              ],
+              [
+                0.8,
+                0.3376
+              ],
+              [
+                0.85,
+                0.2962
+              ],
+              [
+                0.9,
+                0.2572
+              ],
+              [
+                0.95,
+                0.2206
+              ],
+              [
+                1.0,
+                0.1893
+              ],
+              [
+                1.05,
+                0.1644
+              ],
+              [
+                1.1,
+                0.1442
+              ],
+              [
+                1.15,
+                0.1267
+              ],
+              [
+                1.2,
+                0.1111
+              ],
+              [
+                1.25,
+                0.0976
+              ],
+              [
+                1.3,
+                0.0866
+              ],
+              [
+                1.35,
+                0.0777
+              ],
+              [
+                1.4,
+                0.0697
+              ],
+              [
+                1.45,
+                0.0618
+              ],
+              [
+                1.5,
+                0.0546
+              ],
+              [
+                1.55,
+                0.0486
+              ],
+              [
+                1.6,
+                0.0425
+              ],
+              [
+                1.65,
+                0.0351
+              ],
+              [
+                1.7,
+                0.027
+              ],
+              [
+                1.75,
+                0.0199
+              ],
+              [
+                1.8,
+                0.0155
+              ],
+              [
+                1.85,
+                0.0137
+              ],
+              [
+                1.9,
+                0.0136
+              ],
+              [
+                1.95,
+                0.0141
+              ],
+              [
+                2.0,
+                0.0144
+              ],
+              [
+                2.05,
+                0.0145
+              ],
+              [
+                2.1,
+                0.014
+              ],
+              [
+                2.15,
+                0.0126
+              ],
+              [
+                2.2,
+                0.0104
+              ],
+              [
+                2.25,
+                0.0077
+              ],
+              [
+                2.3,
+                0.005
+              ],
+              [
+                2.35,
+                0.0029
+              ],
+              [
+                2.4,
+                0.0018
+              ],
+              [
+                2.45,
+                0.0014
+              ],
+              [
+                2.5,
+                0.0012
+              ],
+              [
+                2.55,
+                0.0009
+              ],
+              [
+                2.6,
+                0.0005
+              ],
+              [
+                2.65,
+                0.0002
+              ],
+              [
+                2.7,
+                0.0002
+              ],
+              [
+                2.75,
+                0.0005
+              ],
+              [
+                2.8,
+                0.0014
+              ],
+              [
+                2.85,
+                0.0027
+              ],
+              [
+                2.9,
+                0.0039
+              ],
+              [
+                2.95,
+                0.0042
+              ],
+              [
+                3.0,
+                0.0035
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "Priori uniforme(0, 5)",
+              "en": "uniform(0, 5) prior",
+              "es": "Priori uniforme(0, 5)"
+            },
+            "papel": "neutro",
+            "pontos": [
+              [
+                0.0,
+                1.5603
+              ],
+              [
+                0.05,
+                1.5421
+              ],
+              [
+                0.1,
+                1.4899
+              ],
+              [
+                0.15,
+                1.4099
+              ],
+              [
+                0.2,
+                1.3107
+              ],
+              [
+                0.25,
+                1.2016
+              ],
+              [
+                0.3,
+                1.0904
+              ],
+              [
+                0.35,
+                0.9824
+              ],
+              [
+                0.4,
+                0.8811
+              ],
+              [
+                0.45,
+                0.7885
+              ],
+              [
+                0.5,
+                0.7061
+              ],
+              [
+                0.55,
+                0.6343
+              ],
+              [
+                0.6,
+                0.5726
+              ],
+              [
+                0.65,
+                0.5191
+              ],
+              [
+                0.7,
+                0.4718
+              ],
+              [
+                0.75,
+                0.4293
+              ],
+              [
+                0.8,
+                0.3912
+              ],
+              [
+                0.85,
+                0.3577
+              ],
+              [
+                0.9,
+                0.3293
+              ],
+              [
+                0.95,
+                0.3058
+              ],
+              [
+                1.0,
+                0.2861
+              ],
+              [
+                1.05,
+                0.2691
+              ],
+              [
+                1.1,
+                0.2533
+              ],
+              [
+                1.15,
+                0.238
+              ],
+              [
+                1.2,
+                0.2225
+              ],
+              [
+                1.25,
+                0.2063
+              ],
+              [
+                1.3,
+                0.1888
+              ],
+              [
+                1.35,
+                0.17
+              ],
+              [
+                1.4,
+                0.1504
+              ],
+              [
+                1.45,
+                0.1314
+              ],
+              [
+                1.5,
+                0.1148
+              ],
+              [
+                1.55,
+                0.1023
+              ],
+              [
+                1.6,
+                0.0943
+              ],
+              [
+                1.65,
+                0.0901
+              ],
+              [
+                1.7,
+                0.088
+              ],
+              [
+                1.75,
+                0.0863
+              ],
+              [
+                1.8,
+                0.0838
+              ],
+              [
+                1.85,
+                0.0797
+              ],
+              [
+                1.9,
+                0.0741
+              ],
+              [
+                1.95,
+                0.0671
+              ],
+              [
+                2.0,
+                0.0593
+              ],
+              [
+                2.05,
+                0.0513
+              ],
+              [
+                2.1,
+                0.044
+              ],
+              [
+                2.15,
+                0.0378
+              ],
+              [
+                2.2,
+                0.033
+              ],
+              [
+                2.25,
+                0.0295
+              ],
+              [
+                2.3,
+                0.0273
+              ],
+              [
+                2.35,
+                0.0259
+              ],
+              [
+                2.4,
+                0.0251
+              ],
+              [
+                2.45,
+                0.0248
+              ],
+              [
+                2.5,
+                0.0247
+              ],
+              [
+                2.55,
+                0.0247
+              ],
+              [
+                2.6,
+                0.0249
+              ],
+              [
+                2.65,
+                0.0249
+              ],
+              [
+                2.7,
+                0.0246
+              ],
+              [
+                2.75,
+                0.0238
+              ],
+              [
+                2.8,
+                0.0225
+              ],
+              [
+                2.85,
+                0.0206
+              ],
+              [
+                2.9,
+                0.0185
+              ],
+              [
+                2.95,
+                0.0162
+              ],
+              [
+                3.0,
+                0.014
+              ]
+            ]
+          }
+        ],
+        "leitura": {
+          "pt": "Com três prioris razoáveis, os dados puxam tau para perto de zero, mas não descartam valores altos: o limite de 97,5% vai de 1,34 a 2,35. A decisão quase não muda.",
+          "en": "Under three reasonable priors the data pull tau toward zero but can't rule out large values: the 97.5% bound runs from 1.34 to 2.35. The decision barely moves.",
+          "es": "Con tres prioris razonables, los datos llevan tau hacia cero, pero no descartan valores altos: el límite del 97,5% va de 1,34 a 2,35. La decisión casi no cambia."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "O modelo acerta a dispersão do YouTube, mas falha em 3 de 6 checagens",
+          "en": "The model gets YouTube's spread right but fails 3 of 6 checks",
+          "es": "El modelo acierta la dispersión de YouTube, pero falla en 3 de 6 pruebas"
+        },
+        "eixo_x": {
+          "pt": "estatística (posts com 24 h ou mais)",
+          "en": "statistic (posts 24 h or older)",
+          "es": "estadística (posts con 24 h o más)"
+        },
+        "eixo_y": {
+          "pt": "p preditivo a posteriori",
+          "en": "posterior predictive p",
+          "es": "p predictivo a posteriori"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "series": [
+          {
+            "nome": {
+              "pt": "p preditivo",
+              "en": "predictive p",
+              "es": "p predictivo"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "TikTok: desvio do log das views",
+                0.997
+              ],
+              [
+                "TikTok: menor post (views)",
+                0.2973
+              ],
+              [
+                "TikTok: maior post (views)",
+                0.9992
+              ],
+              [
+                "YouTube: desvio do log das views",
+                0.6765
+              ],
+              [
+                "YouTube: parcela com até 5 views",
+                0.0085
+              ],
+              [
+                "YouTube: maior post (views)",
+                0.7725
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "TikTok: desvio do log das views",
+                "TikTok: menor post",
+                "TikTok: maior post",
+                "YouTube: desvio do log das views",
+                "YouTube: parcela com até 5 views",
+                "YouTube: maior post"
+              ],
+              "en": [
+                "TikTok: spread of log views",
+                "TikTok: smallest post",
+                "TikTok: largest post",
+                "YouTube: spread of log views",
+                "YouTube: share with 5 views or fewer",
+                "YouTube: largest post"
+              ],
+              "es": [
+                "TikTok: desvío del log de las views",
+                "TikTok: post más pequeño",
+                "TikTok: post más grande",
+                "YouTube: desvío del log de las views",
+                "YouTube: parte con 5 views o menos",
+                "YouTube: post más grande"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Parcela de 4.000 conjuntos simulados pelo modelo com valor maior ou igual ao observado. Perto de 0% ou de 100%, o modelo não reproduz aquele aspecto: o teto do TikTok e o excesso de posts quase sem views no YouTube.",
+          "en": "Share of 4,000 model-simulated datasets at or above the observed value. Near 0% or 100%, the model misses that feature: TikTok's ceiling and YouTube's excess of near-zero posts.",
+          "es": "Parte de 4.000 conjuntos simulados por el modelo con valor mayor o igual al observado. Cerca del 0% o del 100%, el modelo no reproduce ese rasgo: el techo de TikTok y el exceso de posts casi sin views en YouTube."
+        }
+      }
+    ]
   }
 }
